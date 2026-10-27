@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS archive artifacts
+__MACOSX/
+.DS_Store
+
+# Runtime data - contains real payroll / employee data, never commit
+invoices/
+processed/
+failed/
+reports/
+*.xlsx
+*.xls
